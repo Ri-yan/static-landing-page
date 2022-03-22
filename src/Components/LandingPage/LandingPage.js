@@ -14,10 +14,12 @@ const LandingPage = () => {
     <svg style={ {
     position: 'relative',
     top: '1em'
-}} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 100"><path fill="#f9fafe" 
+}} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 100"><path fill="#f8fafe" 
       fill-opacity="1" d="M 0 100 L 400 0 L 800 100 "></path></svg>
     <Need/>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 100"><path fill="#f9fafe" 
+    <svg style={{position: 'relative',
+    top: '-1.9em'
+}} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 100"><path fill="#f9fafe" 
       fill-opacity="1" d="M 0 0 L 400 100 L 800 0 "></path></svg>
     <Benefits/>
     <Partners/>
