@@ -1,5 +1,6 @@
-.navbar,.logo,.cover,.nav_element{
+.navbar,.nav_element{
     display: flex;
+    width: -webkit-fill-available;
 }
 .navbar{
     flex-direction: row;
@@ -10,14 +11,16 @@
 .navbar .nav_item{
  padding: 10px 5px;
  margin: 15px;
- font-family: 'PT Sans Caption', sans-serif;
- color: #513164;
- font-weight: 400;
- font-size: 24px;
- line-height: 40px;
- cursor: pointer;
+ font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+color: #513164;
+cursor: pointer;
+
 }
-.navbar .logo{
+/* .navbar .logo{
     flex-direction: column;
     justify-content: center;
     padding: 10px 21px;
@@ -25,9 +28,6 @@
     border-radius: 5em;
     color: white;
     text-align: center;
-    /* line-height: 28px; */
-    /* transform: translate(0px, 0px); */
-
 }
 .navbar .logo span:nth-child(1){
     font-weight: 400;
@@ -40,6 +40,11 @@
     font-size: 25px;
     line-height: 28px;
 
+} */
+.navbar .logo {
+    height: 90px;
+    width: auto;
+    margin: 0px;
 }
 .navbar .ham {
     display: none;

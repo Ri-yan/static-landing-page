@@ -1,11 +1,15 @@
 import React from 'react'
 import './Navigation.css'
+import {logo} from '../../assets'
 import {navdata} from '../../data/navdata'
 
 const Navigation = () => {
   return (
     <div className='navbar'>
-        <div className="logo"><span>Benefit</span><span>Wise</span></div>
+        <div className="logo">
+          <img src={logo} alt="logo" />
+          {/* <span>Benefit</span><span>Wise</span> */}
+          </div>
         {
             navdata.map((item,key)=>{
                 return(

@@ -1,5 +1,5 @@
 .benefits{
-    background: #f5f4f4;
+    background: #fffefe;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -50,9 +50,8 @@
  color: #513164;
  text-align: left;
 }
-.benefits.slabs p{
+.benefits .slabs p{
  font-family: 'PT Sans Caption', sans-serif;
- font-family: 'PT Sans Caption';
 font-style: normal;
 font-weight: 400;
 font-size: 24px;
