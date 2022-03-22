@@ -1,0 +1,32 @@
+.brands{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 40px;
+    margin-bottom: 40px;
+}
+.brands h6{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFBF4C;
+    line-height: 95px;
+    margin-bottom: -80px;
+
+}
+.brands h2{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #513164;
+    line-height: 95px;
+}
+
+.brands img {
+    width: 1048px;
+    height: 1006px;
+    margin: 20px;
+}

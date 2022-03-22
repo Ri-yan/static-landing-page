@@ -1,0 +1,63 @@
+.testi{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 207px;
+}
+.testi h6{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFBF4C;
+    line-height: 95px;
+    margin-bottom: -80px;
+}
+.testi h2{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #513164;
+    line-height: 95px;
+}
+.testi .slider{
+    display: flex;
+    height: 480px;
+    background: rgba(166, 191, 255, 0.25);
+    justify-content: space-between;
+    align-items: center;
+}
+.testi .slider div {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 82px;
+    letter-spacing: 0.22em;
+    text-align: center;
+}
+.testi .slider-arrow{
+    height: 60px;
+    width: 37px;
+    z-index: 4;
+}
+.testi .slider span{
+    z-index: 5;
+}
+.testi .left-triangle {
+    border-top: 240px solid #e9efff00;
+    border-bottom: 240px solid #e9efff00;
+    border-right: 103px solid rgb(233 239 255);
+    left: 21px;
+    transform: translate(83px, 0px);
+    position: absolute;
+}
+.testi .right-triangle {
+    border-top: 240px solid #e9efff00;
+    border-bottom: 240px solid #e9efff00;
+    border-right: 103px solid rgb(233 239 255);
+    right: 104px;
+    transform: translate(83px, 0px);
+    position: absolute;
+    transform: rotate(180deg);
+}

@@ -1,0 +1,25 @@
+.partners{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 40px;
+}
+.partners h6{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFBF4C;
+    line-height: 95px;
+    margin-bottom: -80px;
+
+}
+.partners h2{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #513164;
+    line-height: 95px;
+}
+

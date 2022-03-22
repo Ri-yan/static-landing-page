@@ -1,0 +1,76 @@
+.benefits{
+    background: #f5f4f4;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px;
+}
+.benefits h6{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFBF4C;
+    line-height: 95px;
+    margin-bottom: -80px;
+
+}
+.benefits h2{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #513164;
+    line-height: 95px;
+}
+.benefits .slab-list{
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+.benefits .slabs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.benefits .reverse{
+    flex-direction: row-reverse;
+}
+.benefits .slabs img{
+    width: 304px;
+    height: 304px;
+    margin: 15px;
+    margin-right: 4.5em;
+
+}
+.benefits .slabs h3{
+ font-family: 'PT Sans Caption', sans-serif;
+ font-weight: 700;
+ font-size: 28px;
+ line-height: 95px;
+ color: #513164;
+ text-align: left;
+}
+.benefits.slabs p{
+ font-family: 'PT Sans Caption', sans-serif;
+ font-family: 'PT Sans Caption';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+ color: #513164;
+ text-align: left;
+
+}
+.benefits button {
+    background: #2D4FA8;
+    border-radius: 20px;
+    font-family: 'PT Sans Caption';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 52px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto;
+    padding: 0px 35px;
+}

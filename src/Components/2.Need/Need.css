@@ -1,0 +1,97 @@
+.need{
+    background: linear-gradient(180deg, rgba(166, 191, 255, 0.25) -0.31%, rgba(238, 243, 255, 0.195) -0.3%, rgba(101, 135, 224, 0.25) 50.37%, rgba(232, 238, 255, 0.25) 100%);    height: fit-content;
+}
+.need h6{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFBF4C;
+    line-height: 95px;
+    margin-bottom: -90px;
+}
+.need h2{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #513164;
+    line-height: 95px;
+}
+.need .card{
+    background-color: #2D4FA8;
+   height: 288px;
+   width: 288px;
+   border-radius: 20px;
+}
+/* .card-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    grid-gap: 88px;
+} */
+.need .card-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    grid-gap: 30px;
+    padding: 45px 74px;
+    height: -moz-fit-content;
+    height: fit-content;
+    justify-content: center;
+}
+.need .card .block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -55px;
+}
+.need .block_head{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: left;
+    margin: 20px;
+}
+.need .block_percentage {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 40px;
+    color: #FFBF4C;
+}
+
+.need .block .arrowshow{
+    height: 40px;
+    width: 100px;
+}
+.need .block .arrowhide{
+    display: none;
+    position: absolute;
+}
+
+.need button {
+    background: #2D4FA8;
+    border-radius: 20px;
+    font-family: 'PT Sans Caption';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 95px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto;
+    padding: 0px 46px;
+}
+@media screen and (width:960px){
+    .need .card-list{
+        grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+
+    }
+}
