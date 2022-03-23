@@ -10,17 +10,17 @@ const LandingPage = () => {
     background:'#f7f9ff',
     marginBottom:'-6em'
 }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 90"><path fill="#ffff" 
-      fill-opacity="1" d="M 0 100 L 400 0 L 800 100 "></path></svg>
+      fillOpacity="1" d="M 0 100 L 400 0 L 800 100 "></path></svg>
     <svg style={ {
     position: 'relative',
     top: '1em'
 }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 100"><path fill="#f8fafe" 
-      fill-opacity="1" d="M 0 100 L 400 0 L 800 100 "></path></svg>
+      fillOpacity="1" d="M 0 100 L 400 0 L 800 100 "></path></svg>
     <Need/>
     <svg style={{position: 'relative',
     top: '-1.9em'
 }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 100"><path fill="#f9fafe" 
-      fill-opacity="1" d="M 0 0 L 400 100 L 800 0 "></path></svg>
+      fillOpacity="1" d="M 0 0 L 400 100 L 800 0 "></path></svg>
     <Benefits/>
     <Partners/>
     <Testimonials/>

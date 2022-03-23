@@ -28,6 +28,7 @@
     width: -webkit-fill-available;
 }
 .benefits .slabs{
+    margin: 0.5em 1em;
     display: flex;
     align-items: center;
     justify-content: center;
