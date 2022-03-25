@@ -7,7 +7,9 @@ const Partners = () => {
     <div className="partners">
         <h6>OUR PARTENERS IN EXPANSION</h6>
         <h2>Running successfully with 50+ Indian Companies</h2>
-        <img src={lines} alt="img" />
+        <img style={{height: '10em',
+    width: '-webkit-fill-available'
+}} src={lines} alt="img" />
     </div>
   )
 }

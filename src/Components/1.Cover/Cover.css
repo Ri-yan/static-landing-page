@@ -2,7 +2,9 @@
     display: flex;
 }
 .cover{
-    margin-bottom: -8em;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: -5em;
     height: fit-content;
     height: 971.06px;
     padding: 80px 85px 0px 51px;

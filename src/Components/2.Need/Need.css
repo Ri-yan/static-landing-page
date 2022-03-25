@@ -1,7 +1,10 @@
-.need{
-    background: linear-gradient(180deg, rgba(166, 191, 255, 0.25) -0.31%, rgba(238, 243, 255, 0.195) -0.3%, rgba(101, 135, 224, 0.25) 50.37%, rgba(232, 238, 255, 0.25) 100%);    height: fit-content;
-position: relative;
-top: -1.9em;
+.need {
+    background: linear-gradient(180deg, rgba(166, 191, 255, 0.25) -0.31%, rgb(238 243 255 / 35%) -0.3%, rgba(101, 135, 224, 0.25) 50.37%, rgba(232, 238, 255, 0.25) 100%);
+    height: -moz-fit-content;
+    height: fit-content;
+    position: relative;
+    top: -1.9em;
+    width: -webkit-fill-available;
 }
 .need h6{
     font-family: 'PT Sans Caption', sans-serif;
@@ -40,10 +43,13 @@ top: -1.9em;
     grid-template-rows: 1fr;
     justify-items: center;
     grid-gap: 30px;
-    padding: 45px 74px;
+    /* padding: 45px 74px; */
+    padding: 45px 0px;
     height: -moz-fit-content;
     height: fit-content;
+    width: 1080px;
     justify-content: center;
+    margin: auto;
 }
 .need .card .block{
     display: flex;
